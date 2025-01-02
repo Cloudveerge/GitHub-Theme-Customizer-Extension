@@ -2,6 +2,8 @@
 
 Transform your GitHub experience with this powerful extension! Customize the appearance of GitHub by adjusting styles for buttons, backgrounds, text colors, and more. Whether you prefer a dark or light theme or want to fine-tune specific UI elements, this extension gives you the flexibility to make GitHub your own.
 
+![Preview](https://github.com/Cloudveerge/GitHub-Theme-Customizer-Extension/blob/main/Preview/Preview.png)
+
 ## Features
 - **Customize Buttons**: Change the button colors to fit your style.
 - **Adjust Backgrounds**: Switch between dark and light backgrounds.
