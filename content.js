@@ -73,7 +73,6 @@
 
     let snowflakesCreated = 0;
     const maxSnowflakes = 10;
-    const stopAfter = 30000;
 
     let snowEnabled = true;
 
@@ -119,9 +118,11 @@
         });
     }
 
-    enableSnow();
+    setInterval(() => {
+        if (snowEnabled) {
+            createSnowflakes();
+        }
+    }, 500);
 
-    setTimeout(() => {
-        disableSnow();
-    }, stopAfter);
+    enableSnow();
 })();
