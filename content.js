@@ -44,7 +44,7 @@
         }
         .snowflake {
             position: absolute;
-            top: -10px;
+            top: -20px;
             z-index: -1;
             color: #FFF;
             font-size: 10px;
@@ -74,7 +74,7 @@
     let snowflakesCreated = 0;
     const maxSnowflakes = 10;
 
-    let snowEnabled = true;
+    let snowEnabled = true
 
     function createSnowflakes() {
         if (!snowEnabled) {
@@ -125,4 +125,4 @@
     }, 500);
 
     enableSnow();
-})();
+})(); 
